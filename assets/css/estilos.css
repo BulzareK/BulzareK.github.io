@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+
+/* Header*/
+.vid-container {
+  opacity: 30%;
+  top: 0;
+  position: fixed;
+  min-width: 200%;
+  min-height: 200%;
+  z-index: -1;
+}
+
+.img-header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 50;
+}
+
+.img-header-container h1 {
+  font-size: 5em;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-text-stroke: 4px rgb(0, 2, 109);
+}
+
+.img-header {
+  border-radius: 5px;
+  height: 300px;
+  width: 300px;
+}
+
+/* Acerca de mí */
+
+/* Trabajos */
+
+#Trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  color: white;
+}
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#Contacto.container {
+  color: white;
+}
+
+/* --------> media <-------- */
+@media (max-width: 768px) {
+  .img-header {
+    width: 200px;
+    height: 200px;
+  }
+  .img-header-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img-header-container h1 {
+    font-size: 2.5em;
+    -webkit-text-stroke: 0;
+  }
+
+  .vid-container {
+    position: fixed;
+    min-width: 500%;
+    min-height: 500%;
+  }
+
+  /*
+  .vid-container {
+    opacity: 0;
+  }
+
+  body {
+    background-image: url(/assets/img/vid-img.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+  }
+*/
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand {
+    width: 100px;
+  }
+}
