@@ -87,18 +87,6 @@ body {
     min-height: 500%;
   }
 
-  /*
-  .vid-container {
-    opacity: 0;
-  }
-
-  body {
-    background-image: url(/assets/img/vid-img.jpg);
-    background-repeat: no-repeat;
-    height: 100%;
-    background-attachment: fixed;
-  }
-*/
   #Contacto form label {
     font-weight: 400;
   }
