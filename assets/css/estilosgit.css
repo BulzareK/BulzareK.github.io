@@ -44,4 +44,11 @@ body {
   .navbar-brand {
     width: 100px;
   }
+
+  .row.col{
+    padding: 0;
+  }
+
+}
+
 }
