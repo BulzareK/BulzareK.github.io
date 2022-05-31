@@ -86,6 +86,14 @@ body {
     min-width: 500%;
     min-height: 500%;
   }
+  #Trabajos {
+    padding: 0px;
+  }
+
+  .row {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   #Contacto form label {
     font-weight: 400;
